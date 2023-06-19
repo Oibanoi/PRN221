@@ -1,0 +1,41 @@
+﻿@page
+@model SignalRAssignment.Pages.Admin.EditModel
+@{
+}
+<div class="container">
+    <h1>Edit Pizza</h1>
+    <form method="post">
+        <input asp-for="@Model.product.ProductID" type="hidden" value="@Model.product.ProductID" />
+      <div class="form-group">
+        <label for="pizzaName">Name</label>
+        <input type="text" class="form-control" id="pizzaName" placeholder="Enter pizza name" asp-for="@Model.product.ProductName" value="@Model.product.ProductName">
+      </div>
+      <div class="form-group">
+        <label for="pizzaPrice">Price</label>
+        <input type="number" step="0.01" class="form-control" id="pizzaPrice" placeholder="Enter pizza price"asp-for="@Model.product.UnitPrice" value="@Model.product.UnitPrice">
+      </div>
+      <div class="form-group">
+        <label for="imageUrl">Image URL</label>
+        <input type="text" class="form-control" id="imageUrl" placeholder="Enter image URL"asp-for="@Model.product.ProductImage" value="@Model.product.ProductImage">
+      </div>
+      <div class="form-group">
+        <label for="category">Category</label>
+        <select class="form-control" id="category" asp-for="@Model.product.CategoryID">
+          @foreach(var category in Model.Categories)
+                {
+                    @if (category.CategoryID == Model.product.CategoryID)
+                    {
+                        <option value="@category.CategoryID" selected>@category.CategoryName</option>
+                    }
+                    else
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }                    
+                }
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Edit</button>
+      </div>
+    </form>
+  </div>

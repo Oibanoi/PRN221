@@ -1,0 +1,73 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<body>
+  <div class="header">
+    <ul>
+      <li><a href="#">Pizzas</a></li>
+      <li class="dropdown">
+        <a href="#">Categories</a>
+        <div class="dropdown-content">
+          <a href="#">Category 1</a>
+          <a href="#">Category 2</a>
+          <a href="#">Category 3</a>
+        </div>
+      </li>
+      <li><a href="#">Reviews</a></li>
+      <li><a href="#">Orders</a></li>
+       @if (HttpContext.Session.GetString("role") != "0")
+      {
+        <li><a href="/admin">Admin Page @HttpContext.Session.GetString("role")</a></li>
+      }
+      
+      @if (HttpContext.Session.GetString("username") != null)
+      {
+        <li><p>Welcome @HttpContext.Session.GetString("username")</p></li>
+        <li><a href="logout">Logout</a></li>
+      }
+      else
+      {
+        <li><a href="/SignIn">Sign In</a></li>
+      }
+      
+    </ul>
+  </div>  
+</body>
+
+  <h1>Pizzas Menu</h1>
+  <form method="get">
+      <div class="d-flex">
+          <p class="me-5">Search</p>
+          <input type="text" name="pizza"/>
+      </div>
+      <div>
+          <button type="submit" class="btn btn-secondary">Search</button>
+      </div>
+  </form>
+  <div class="container">
+    <div class="row">
+        @foreach(var product in Model.Products)
+        {
+        <div class="col-md-4">
+        <div class="card">
+          <img src="@product.ProductImage" class="card-img-top" alt="Pizza 1">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-8">
+                <h5 class="card-title">@product.ProductName</h5>
+              </div>
+              <div class="col-4 text-right">
+                <h5 class="card-title">$@product.UnitPrice</h5>
+              </div>
+            </div>
+            <p class="pizza-category">@product.Category.CategoryName</p>
+            <p class="pizza-description">Description of Pizza 3.</p>
+            <button class="btn btn-primary">Add Pizza</button>
+          </div>
+        </div>
+      </div>
+        }        
+    </div>
+  </div>

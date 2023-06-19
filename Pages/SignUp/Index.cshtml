@@ -1,0 +1,22 @@
+﻿@page
+@model SignalRAssignment.Pages.SignUp.IndexModel
+@{
+}
+<h3>Sign Up</h3>
+<form method="post"  asp-page="SignUp">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" required asp-for="@Model.account.UserName">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" required asp-for="@Model.account.Password">
+    </div>
+    <div class="form-group">
+        <label for="fullname">FullName</label>
+        <input type="text" required asp-for="@Model.account.FullName">
+    </div>
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+    <a asp-page="SignIn">Sign In</a>
+    </form>
+    @Html.ValidationMessage("Error")
