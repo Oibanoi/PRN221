@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SignalRAssignment
 build_property.RootNamespace = SignalRAssignment
-build_property.ProjectDir = D:\download\SU@#\PRN221\Assignment2\
+build_property.ProjectDir = D:\download\SU@#\PRN221\SignalRAssignment\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\download\SU@#\PRN221\Assignment2
+build_property.MSBuildProjectDirectory = D:\download\SU@#\PRN221\SignalRAssignment
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Admin/Create.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Admin/Delete.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Admin/Edit.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Admin/Index.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Error.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Errors/404.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Errors/404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JzXDQwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Index.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/LogOut/Index.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/LogOut/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nT3V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Privacy.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/SignIn/Index.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/SignIn/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbkluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/SignUp/Index.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/SignUp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/_ViewImports.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/_ViewStart.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/download/SU@\#/PRN221/Assignment2/Pages/Shared/_Layout.cshtml]
+[D:/download/SU@\#/PRN221/SignalRAssignment/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mt3y9s27z5

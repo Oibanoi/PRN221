@@ -9929,11 +9929,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\download\\SU@#\\PRN221\\Assignment2\\SignalRAssignment.csproj",
+      "projectUniqueName": "D:\\download\\SU@#\\PRN221\\SignalRAssignment\\SignalRAssignment.csproj",
       "projectName": "SignalRAssignment",
-      "projectPath": "D:\\download\\SU@#\\PRN221\\Assignment2\\SignalRAssignment.csproj",
+      "projectPath": "D:\\download\\SU@#\\PRN221\\SignalRAssignment\\SignalRAssignment.csproj",
       "packagesPath": "C:\\Users\\Huu\\.nuget\\packages\\",
-      "outputPath": "D:\\download\\SU@#\\PRN221\\Assignment2\\obj\\",
+      "outputPath": "D:\\download\\SU@#\\PRN221\\SignalRAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Huu\\AppData\\Roaming\\NuGet\\NuGet.Config",

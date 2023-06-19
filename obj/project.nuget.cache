@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HzkZnB4WBKv1yQBICgMJOFbUZ4wQnLVoLXz4aMXhhyZqh4cCiErokkaA8ECktnxYDWV6pNxJhzkJUi5N3IzUjQ==",
+  "dgSpecHash": "8xqaSBzn+FGrY4CTUEk2UFUlmXHnLut+c4v06qRYs8yYBkMcxolN116IoFBkBtSZb6xkNYcMENeCaSFEt5djkw==",
   "success": true,
-  "projectFilePath": "D:\\download\\SU@#\\PRN221\\Assignment2\\SignalRAssignment.csproj",
+  "projectFilePath": "D:\\download\\SU@#\\PRN221\\SignalRAssignment\\SignalRAssignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huu\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Huu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
