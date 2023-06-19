@@ -18,7 +18,7 @@ namespace SignalRAssignment.Pages.Admin
            
             if (HttpContext.Session.GetString("role") != "1")
             {
-                Response.Redirect("/signin");
+                Response.Redirect("/index");
             }
             int product_id = Convert.ToInt32(id);
             var product = _context.Products.Where(p => p.ProductID == product_id).FirstOrDefault();

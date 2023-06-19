@@ -17,7 +17,7 @@ namespace SignalRAssignment.Pages.Admin
         {
             if (HttpContext.Session.GetString("role") != "1")
             {
-                Response.Redirect("/signin");
+                Response.Redirect("/index");
             }
             Products = _context.Products.Include(p => p.Category).ToList();
         }

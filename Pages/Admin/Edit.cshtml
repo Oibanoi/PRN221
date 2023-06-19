@@ -5,7 +5,10 @@
 <div class="container">
     <h1>Edit Pizza</h1>
     <form method="post">
-        <input asp-for="@Model.product.ProductID" type="hidden" value="@Model.product.ProductID" />
+        @if (Model.product!=null)
+        {
+            <input asp-for="@Model.product.ProductID" type="hidden" value="@Model.product.ProductID" />
+        }        
       <div class="form-group">
         <label for="pizzaName">Name</label>
         <input type="text" class="form-control" id="pizzaName" placeholder="Enter pizza name" asp-for="@Model.product.ProductName" value="@Model.product.ProductName">

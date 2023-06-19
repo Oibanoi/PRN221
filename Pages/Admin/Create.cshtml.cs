@@ -20,7 +20,7 @@ namespace SignalRAssignment.Pages.Admin
         {
             if (HttpContext.Session.GetString("role") != "1")
             {
-                Response.Redirect("/signin");
+                Response.Redirect("/index");
             }
             Categories = _context.Categories.ToList();
             product = new Product();
@@ -30,7 +30,7 @@ namespace SignalRAssignment.Pages.Admin
 
             if (HttpContext.Session.GetString("role") != "1")
             {
-                Response.Redirect("/signin");
+                Response.Redirect("/index");
             }
             product.QuantityPerUnit = 1;
             product.SupplierID = 1;

@@ -34,7 +34,7 @@ namespace Assignment2
             app.UseStaticFiles();
             app.UseSession(); 
             app.UseRouting();
-
+            app.UseStatusCodePagesWithRedirects("/errors/{0}");
             app.UseAuthorization();
 
             app.MapRazorPages();

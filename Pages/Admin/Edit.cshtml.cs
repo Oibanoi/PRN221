@@ -15,29 +15,42 @@ namespace SignalRAssignment.Pages.Admin
         {
             _context = context;
         }
-        public void OnGet(string id)
+        public IActionResult OnGet(string id)        
         {
-            if (HttpContext.Session.GetString("role") != "1")
+            if (id == null)
+
+                Response.Redirect("/index");
+            if (HttpContext.Session.GetString("role") != "1" || HttpContext.Session.GetString("username") == null)
             {
-                Response.Redirect("/signin");
+
+                return Redirect("/index");
             }
-            var id_prd = Convert.ToInt32(id);
-            Categories = _context.Categories.ToList();
-            product = _context.Products.Where(p => p.ProductID == id_prd).FirstOrDefault();
+            else
+            { 
+                    var id_prd = Convert.ToInt32(id);
+                    Categories = _context.Categories.ToList();
+                    product = _context.Products.Where(p => p.ProductID == id_prd).FirstOrDefault();               
+               
+            }
+            return Page();
         }
         public void OnPost()
         {
 
-            if (HttpContext.Session.GetString("role") != "1")
+            if (HttpContext.Session.GetString("role") != "1" || HttpContext.Session.GetString("username") == null)
             {
-                Response.Redirect("/signin");
+                Response.Redirect("/index");
             }
-            product.QuantityPerUnit = 1;
-            product.SupplierID = 1;
+            else
+            {
+                product.QuantityPerUnit = 1;
+                product.SupplierID = 1;
 
-            _context.Products.Update(product);
-            _context.SaveChanges();
-            Response.Redirect("/admin");
+                _context.Products.Update(product);
+                _context.SaveChanges();
+                Response.Redirect("/admin");
+            }
+            
         }
     }
 }
